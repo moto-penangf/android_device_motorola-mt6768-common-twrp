@@ -55,3 +55,8 @@ PRODUCT_PACKAGES_DEBUG += \
     bootctrl \
     update_engine_client
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd \
+    android.hardware.fastboot@1.0-impl-mock
+
